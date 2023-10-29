@@ -7,8 +7,8 @@ public class Solution{
         for(int k=1;k<=t;k++){
             int r1=sc.nextInt();
             int r2=sc.nextInt();
-            PriorityQueue<Double> pq1=new PriorityQueue<>();
-            PriorityQueue<Double> pq2=new PriorityQueue<>();
+            Queue<Double> pq1=new PriorityQueue<>();
+            Queue<Double> pq2=new PriorityQueue<>();
             int n=sc.nextInt();
             for(int i=0;i<n;i++){
                 int x1=sc.nextInt();
