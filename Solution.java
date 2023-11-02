@@ -3,7 +3,7 @@ public class Solution{
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
         int t=sc.nextInt();
-        
+        //this comment is made by vikash kumar
         for(int k=1;k<=t;k++){
             int r1=sc.nextInt();
             int r2=sc.nextInt();
@@ -58,7 +58,8 @@ public class Solution{
             }
         }
     }
+    
     public static double distance(int x1,int y1,int x2,int y2){
-        return Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2) * 1.0);
+        return Math.sqrt(Math.pow((x2 - x1), 2) + Math.pow((y2 - y1), 2) * 1.0);
     }
 }
